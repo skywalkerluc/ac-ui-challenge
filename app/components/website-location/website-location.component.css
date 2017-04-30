@@ -1,0 +1,26 @@
+.particle {
+    padding-left: 15%;
+    display: flex;
+    padding-bottom: 3%;
+}
+
+.col-sm-9{
+    width: 70%;
+    padding-left: 15%;
+}
+
+.col-sm-2{
+    padding-right: 30%;
+    padding-left: 0%;
+}
+
+#map{
+    height: 100%;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}

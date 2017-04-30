@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+
+
+.personalClass {
+  background: linear-gradient(#fcfcfc, #f6f6f6);
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+  box-shadow: inset 0 1px 0 #fff, 0 3px 15px #eee;
+	font-family: 'Lato', helvetica, arial, sans-serif;
+	margin: 0px 0 0;
+	padding: 20px 0;
+	text-align: center;	
+}
+
+.personalClass ul {
+	background: linear-gradient(#fafafa, #f1f1f1);
+	border: 1px solid #eee;
+	border-bottom-color: #ebebeb;
+  border-radius: 10px 0 10px 0;
+  box-shadow: inset 0 1px 0 #fff, 0 0px 0 1px #fff;
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+
+.personalClass ul:after {
+  background: linear-gradient(left top, rgba(255,255,255,.1), rgba(255,255,255,.7));
+	content: '';
+	height: 46px;
+	left: -50px;
+	position: relative;
+	top: -32px;
+  transform: rotate(-2.4deg);
+	width: 120%;
+	z-index: 1;	
+}
+
+.personalClass li {
+	float: left;
+}
+
+.personalClass a {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #eee;
+	color: #888;
+	display: block;
+	font-size: 14px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 35px;
+	position: relative;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	transition: all 150ms linear;
+	z-index: 2;		
+}
+
+.personalClass a:focus {
+	outline: 0;
+}
+
+.personalClass li:first-child a {
+	border-left: none;
+	border-radius: 10px 0 0 0;
+}
+
+.personalClass li:last-child a {
+	border-right: none;
+	border-radius: 0 0 10px 0;
+}
+
+.personalClass ul:hover a {
+	color: transparent;
+	text-shadow: 0 0 5px #ccc;
+}
+
+.personalClass ul:hover a:hover {
+	background: #fafafa;
+	color: #444;
+	line-height: 43px;
+	text-shadow: 0 1px 0 #fff;	
+}
+
+.personalClass ul:hover a:active {
+	border-left-color: #f0f0f0;	
+	box-shadow: inset 0 0 22px #e9e9e9;
+	color: #999;
+	line-height: 47px;
+	transition: none;
+}

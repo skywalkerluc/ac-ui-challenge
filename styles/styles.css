@@ -1,0 +1,53 @@
+*{
+	text-align: center;
+	font-size: 20px;
+}
+
+div, button{
+	margin: 0 10px;
+}
+.location_value {
+	color: red;
+}
+#title{
+	font-size: 48px;
+}
+
+menu{
+	padding: 0 2% 2% 2%;
+}
+
+menu button, menu a {
+	width: 200px;
+	height:50;
+}
+
+table > tbody > tr > td.field_name {
+    text-align: left;
+}
+
+table > tbody > tr > td.location_value {
+    width: 200px;
+}
+
+table.empty .help {
+    visibility: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+	background: 
+		linear-gradient(rgba(196, 102, 0, 0.0), rgba(155, 89, 182, 0.2)) !important;
+		font-family: montserrat, arial, verdana !important;
+}
+
+
+h1{
+	padding: 2%;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
